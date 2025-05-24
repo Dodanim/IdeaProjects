@@ -14,7 +14,9 @@ public class Calculadora {
     }
     public double dividir(double a, double b){
         double result = 0;
+        if(a!=0 && b != 0){
         result = a/b;
+        }
         return result;
     }
     public double multiplicar(double a, double b){

@@ -28,8 +28,8 @@ prueba de alguna de las clases que tenemos en nuestro proyecto*/
 @Test
     void testOperate(){
          Calculadora cal = new Calculadora();
-         double result = cal.sumar(1,3);
-         Assertions.assertEquals(4,result);
+         double result = cal.dividir( 0,3);
+         Assertions.assertEquals(0,result);
 }
 
 }
